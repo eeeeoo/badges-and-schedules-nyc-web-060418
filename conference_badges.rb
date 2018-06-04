@@ -22,6 +22,6 @@ end
 def printer(array)
   batch_badge_creator(array).zip(assign_rooms(array)).each do |badge, name|
     puts badge
-    puts room
+    puts name
   end
 end
