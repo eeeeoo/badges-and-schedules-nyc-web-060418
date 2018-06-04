@@ -18,3 +18,6 @@ def assign_rooms(array)
   end
   new_array
 end
+
+def printer(array)
+  batch_badge_creator(array).zip (assign_rooms(array)) each do |badge, name|
